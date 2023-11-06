@@ -1,4 +1,4 @@
-package bai13.entity;
+package bai13.model;
 
 public class Intern extends Employee {
     private String majors;

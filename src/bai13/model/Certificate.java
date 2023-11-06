@@ -1,6 +1,4 @@
-package bai13.entity;
-
-import java.time.LocalDate;
+package bai13.model;
 
 public class Certificate {
     private String id;

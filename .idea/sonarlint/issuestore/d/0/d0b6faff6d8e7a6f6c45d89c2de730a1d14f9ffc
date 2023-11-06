@@ -1,0 +1,8 @@
+
+L
+java:S3740"/Provide the parametrized type for this generic.(ñ’¾á8àÁü¸1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ËäŠ«şÿÿÿÿ8àÁü¸1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ØØ³Ø8àÁü¸1
+G	java:S1065"+Replace this use of System.out by a logger.(¹±ÖÛ8ğÁü¸1
+L	java:S106:"+Replace this use of System.out by a logger.(ˆâçúÿÿÿÿ8ğÁü¸1

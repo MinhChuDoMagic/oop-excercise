@@ -1,9 +1,6 @@
 package bai13.service;
 
-import bai13.entity.Employee;
-import bai13.entity.Experience;
-import bai13.entity.Fresher;
-import bai13.entity.Intern;
+import bai13.model.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,13 +31,13 @@ public class EmployeeManagerService {
     public List<Employee> findByType(int type) {
         return this.employees.stream()
                 .filter(employee -> {
-                    if (type == 0) {
+                    if (type == ExperienceType.EXPERIENCE.getValue()) {
                         return employee instanceof Experience;
                     }
-                    if (type == 1) {
+                    if (type == ExperienceType.FRESHER.getValue()) {
                         return employee instanceof Fresher;
                     }
-                    if (type == 2) {
+                    if (type == ExperienceType.INTERN.getValue()) {
                         return employee instanceof Intern;
                     }
                     return false;

@@ -1,4 +1,4 @@
-package bai13.entity;
+package bai13.model;
 
 import java.util.ArrayList;
 import java.util.List;
