@@ -7,6 +7,7 @@ import bai13.exception.PhoneException;
 import bai13.model.*;
 import bai13.utils.Validator;
 import bai13.view.EmployeeView;
+import bai13.view.MenuValue;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -82,5 +83,36 @@ public class EmployeeController {
 
     public void findByIdAndDisplay(int id){
         view.displayEmployeeInfo(findById(id));
+    }
+
+    public void display() throws PhoneException, FullNameException, EmailException, BirthDayException {
+        while (true){
+            int choice = view.menuView();
+            if(choice == MenuValue.ADD.getValue()){
+                Employee employee = view.addEmployeeView();
+                insert(employee);
+            } else if (choice == MenuValue.UPDATE.getValue()) {
+                int id = view.getIdView();
+                Employee employee = findById(id);
+                if(employee == null){
+                    view.employeeNotFoundView(id);
+                }else {
+                    employee = view.updateEmployee(employee);
+                    update(employee.getId(), employee);
+                }
+            } else if (choice == MenuValue.DELETE.getValue()) {
+                int id = view.getIdView();
+                deleteById(id);
+            } else if (choice == MenuValue.DISPLAY_ALL.getValue()) {
+                view.displayEmployeesInfo(employees);
+            } else if (choice == MenuValue.DISPLAY_TYPE.getValue()) {
+                int type = view.employeeTypeView();
+                findByTypeAndDisplay(type);
+            } else if (choice == MenuValue.EXIT.getValue()) {
+                System.exit(0);
+            }else {
+                System.out.println("Lựa chọn không hợp lệ.");
+            }
+        }
     }
 }

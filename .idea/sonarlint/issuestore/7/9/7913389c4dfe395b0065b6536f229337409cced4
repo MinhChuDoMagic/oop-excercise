@@ -3,8 +3,8 @@ l	java:S117 "QRename this local variable to match the regular expression '^[a-
 v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Öÿ’8±Êù¸1
 L	java:S106"+Replace this use of System.out by a logger.(Å¸ÛÍıÿÿÿÿ8±Êù¸1
 F	java:S106"+Replace this use of System.out by a logger.(îöÏ;8±Êù¸1
-G	java:S106"+Replace this use of System.out by a logger.(Á“ÿì8±Êù¸1
-F	java:S106"+Replace this use of System.out by a logger.(ú±ı	8±Êù¸1
+G	java:S106"+Replace this use of System.out by a logger.(Á“ÿì8ÁÊù¸1
+F	java:S106"+Replace this use of System.out by a logger.(ú±ı	8ÁÊù¸1
 L	java:S106"+Replace this use of System.out by a logger.(ÑóÈ†şÿÿÿÿ8ÁÊù¸1
 L	java:S106"+Replace this use of System.out by a logger.(³ˆÏåÿÿÿÿÿ8ÁÊù¸1
 m	java:S128T"LEnd this switch case with an unconditional break, return or throw statement.(µ»ïşıÿÿÿÿ8ÁÊù¸1
@@ -26,6 +26,6 @@ G	java:S106B"+Replace this use of System.out by a logger.(¯¬Ú8ÁÊù¸1
 L	java:S106F"+Replace this use of System.out by a logger.(Š„˜’üÿÿÿÿ8ÁÊù¸1
 L	java:S106L"+Replace this use of System.out by a logger.(­€õŸşÿÿÿÿ8ÁÊù¸1
 G	java:S106N"+Replace this use of System.out by a logger.(æøø­8ÁÊù¸1
-L	java:S106Q"+Replace this use of System.out by a logger.(á²¹ÿÿÿÿÿ8ÁÊù¸1
-G	java:S106U"+Replace this use of System.out by a logger.(µùš«8ÁÊù¸1
-G	java:S106X"+Replace this use of System.out by a logger.(¯¬Ú8ÁÊù¸1
+L	java:S106Q"+Replace this use of System.out by a logger.(á²¹ÿÿÿÿÿ8’®ñ¼º1
+G	java:S106U"+Replace this use of System.out by a logger.(µùš«8“®ñ¼º1
+G	java:S106X"+Replace this use of System.out by a logger.(¯¬Ú8”®ñ¼º1

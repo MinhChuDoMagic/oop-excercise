@@ -35,9 +35,9 @@ public abstract class Employee {
         for (Certificate certificate : certificates) {
             certificate.showInfo();
         }
-        this.showTypeSpecificInfo();
+        this.showMe();
     }
-    public abstract void showTypeSpecificInfo();
+    public abstract void showMe();
 
     public int getId() {
         return id;
